@@ -1,0 +1,11 @@
+Activate Venv:
+    .\.venv\Scripts\Activate
+Run Server:
+    uvicorn main:app --reload
+
+.env:
+A .env file is simply a plain‐text file where you store environment variables—key/value pairs that 
+your application can read at runtime. 
+You use it so that configuration data (like database connection strings, API keys, or other settings) 
+lives outside your source code. 
+

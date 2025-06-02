@@ -1,0 +1,26 @@
+# Byte‐compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables (secrets)
+.env
+
+# VS Code settings
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Migrations (if using Alembic; commit the versions folder only if you want history)
+# alembic/versions/
+
+# OS‐specific
+.DS_Store
+Thumbs.db

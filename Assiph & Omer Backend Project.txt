@@ -1,0 +1,22 @@
+Assiph & Omer Backend Project:
+Main Goal: An application which you can upload cards, rate them and trade them between other users.
+First 3 steps:
+Set up 3 endpoints which do the following:
+endpoint1 = upload a card
+endpoint2 = get a card based on an id
+endpoint3 = get all cards (created by you?)
+
+
+
+
+Excalidraw
+https://excalidraw.com/#json=rRluY59l0W4fBFAQ7r0Vj,zd6otdhUYtkVbQKSkVoz8g
+
+
+Cards Urls
+DK
+https://www.hearthcards.net/temp/d619704f.png
+PALADIN
+https://www.hearthcards.net/temp/0769095f.png
+Demon Hunter
+https://www.hearthcards.net/temp/29862e1f.png
