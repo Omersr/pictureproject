@@ -23,7 +23,7 @@ get_session is a generator just to make a new sessions each time we are using th
 function, abd as soon as the request is completed, it closes automatically instead of writing 
 db = Session(engine); …; db.close() all the time.
 """
-def get_session() -> Session:
+def get_session() -> Session: # type: ignore
     with Session(engine) as session:
         yield session
 

@@ -14,4 +14,9 @@ class Picture(SQLModel, table=True):
     user_id:     int            = Field(foreign_key="user.id", nullable=False)
     description: Optional[str]  = None
     created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc)) # default_factory means use this function to fill in a default.
+    
+class PictureCreate(SQLModel):
+    image_url:   str
+    user_id:     int
+    description: Optional[str] = None
 
