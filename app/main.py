@@ -6,4 +6,5 @@ from .crud import *
 from .routers import *
 app = FastAPI(on_startup=[create_tables])
 
-app.include_router(pictures_router)
+for router in all_routers: 
+    app.include_router(router)

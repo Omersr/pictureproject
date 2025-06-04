@@ -1,11 +1,21 @@
 Activate Venv:
     .\.venv\Scripts\Activate
 Run Server:
-    uvicorn main:app --reload
+    uvicorn app.main:app --reload
 
 .env:
 A .env file is simply a plain‐text file where you store environment variables—key/value pairs that 
 your application can read at runtime. 
 You use it so that configuration data (like database connection strings, API keys, or other settings) 
 lives outside your source code. 
+
+Git pushing changes: 
+* If the git remote -v doesn't work, use this line git remote add origin https://github.com/omersr/pictureproject.git 
+git status
+git add .
+git commit -m "Describe what you changed"
+git remote -v
+git push origin main:master
+
+
 

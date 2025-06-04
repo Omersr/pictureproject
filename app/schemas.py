@@ -7,3 +7,6 @@ class PictureCreate(SQLModel):
     user_id:     int
     description: Optional[str] = None
 
+class UserCreate(SQLModel):
+    user_name:   str
+
